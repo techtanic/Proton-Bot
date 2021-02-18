@@ -37,7 +37,7 @@ def switch_frame(driver, xpath):
     time.sleep(.4)
 
 def find_xpath(driver, xpath):
-    temp = WebDriverWait(driver, 60).until(EC.element_to_be_clickable((By.XPATH, xpath)))
+    temp = WebDriverWait(driver, 20).until(EC.element_to_be_clickable((By.XPATH, xpath)))
     time.sleep(.4)
     return temp
 

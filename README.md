@@ -5,17 +5,15 @@
 BTC :`14JNjiNoiKcbCHcxcqUxgJcVgyDfhGbxQF` 
 
 ## Instructions
-run proton_bot.py
-sit back and enjoy.
+Run proton_bot.py
+
+Sit back and wait.
 
 ### Note -
 If you're repeatedly getting "Looks like YOU have abused the bot!!" error, you can try changing your IP or your device.
+Or just wait it out.
 
 **Requirements**
 1. Google Chrome
+2. Everything from requirement.txt
 
-## Contributors
-#### [Dark-Princ3](https://github.com/Dark-Princ3)
-
-
-If not working dm TECHTANIC#8090

@@ -1,5 +1,3 @@
-import undetected_chromedriver as uc 
+from datetime import datetime
 
-uc.TARGET_VERSION = 85
-driver = uc.Chrome()
-driver.get('https://distilnetworks.com')
+print(datetime.now().strftime("%Y-%m-%d %H:%M"))

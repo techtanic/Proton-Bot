@@ -1,18 +1,19 @@
 import os
 import platform
 
-import undetected_chromedriver as uc
 from colorama import init
+from selenium import webdriver
 
+from pack.auto_driver import autodriver
 from pack.create_acc import create_account
 from pack.functions import calculate_move
-from pack.temp_gen import temp_mail
-from pack.verify import verification
 
 init(convert = True)
 
 driver_path = "default"
 
+print("Downloading Chrome Driver")
+autodriver()
 
 os_name = platform.system()
 if os_name == "Linux":
@@ -30,15 +31,14 @@ def clear():
 
 clear()
 
-options = uc.ChromeOptions()
+options = webdriver.ChromeOptions()
+options.headless = True
 options.add_argument("--ignore-certificate-error")
 options.add_argument("--ignore-ssl-errors")
 options.add_argument('--log-level=3')
-driver = uc.Chrome(options = options)
-driver.maximize_window()
+driver = webdriver.Chrome(options = options)
 print("- . -.-. .... - .- -. .. -.-.")
 
 
 x_i, y_i = calculate_move()
-randuser, randpwd = create_account(driver, temp_mail(driver), x_i, y_i)
-verification(driver, randuser, randpwd)
+create_account(driver, x_i, y_i)
