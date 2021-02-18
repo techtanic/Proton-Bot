@@ -1,19 +1,49 @@
-[![Support Server](https://img.shields.io/discord/591914197219016707.svg?color=7289da&label=Dev+Line&logo=discord&style=forthebadge)](https://discord.gg/wFsfhJh4Rh)
+###### .
+
+<p align="center">
+    <img src="https://media.discordapp.net/attachments/740211892148109373/812003367986659358/Proton_bot.png">
+    <br/>
+    <img src="https://forthebadge.com/images/badges/made-with-python.svg">
+    <br/>
+    <a href="https://github.com/techtanic/Proton-bot/graphs/commit-activity"><img alt="Maintenance" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg?style=for-the-badge"></a>
+    <a target="_blank" href="https://discord.gg/wFsfhJh4Rh"><img alt="Discord" src="https://img.shields.io/discord/703266580846346361.svg?label=Discord&logo=Discord&colorB=7289da&style=for-the-badge"></a>
+    <br/>
+</p>
 
 
+# Proton Bot
 
-BTC :`14JNjiNoiKcbCHcxcqUxgJcVgyDfhGbxQF` 
+> Script to automatically create Proton Mail account.
+> The same account can be used for Proton VPN &-Day Trial
 
-## Instructions
-Run proton_bot.py
+### Must have latest version of Google Chrome.
 
-Sit back and wait.
+## Module Installation
 
-### Note -
-If you're repeatedly getting "Looks like YOU have abused the bot!!" error, you can try changing your IP or your device.
-Or just wait it out.
+Run	`pip install -r requirements.txt` in CMD.
 
-**Requirements**
-1. Google Chrome
-2. Everything from requirement.txt
+OR
 
+Run `pip3 install -r requirements.txt` in Terminal.
+
+
+## Usage
+
+`py proton.py`
+
+`python proton.py`
+
+`python3 proton.py`
+
+
+## Disclaimer
+This is **NOT** affiliated with Proton Technologies AG.
+
+
+## Donate
+
+BTC `bc1qdyjwj0eqxjk5hxejah4gyclrumwtqs3hqp63uz` 
+
+BTC `14JNjiNoiKcbCHcxcqUxgJcVgyDfhGbxQF`
+
+[Back to top](#)
