@@ -5,3 +5,4 @@ Accounts.txt
 test.json
 .gitignore
 test.py
+chromedriver
