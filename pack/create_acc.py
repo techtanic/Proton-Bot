@@ -160,7 +160,7 @@ def create_account(driver, x_i, y_i):
         f.write(datetime.now().strftime("%Y-%m-%d %H:%M")+"\n")
         f.write(username+"\n")
         f.write(password+"\n")
-        f.write("-------------------------------","\n")
+        f.write("-------------------------------\n")
     print(username)
     print(password)
 
