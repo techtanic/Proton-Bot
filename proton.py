@@ -28,7 +28,7 @@ if os_name == "Darwin":
 def clear():
     return os.system(clear_cmd)
 
-if autodriver():
+if autodriver(arch):
 
     clear()
 
