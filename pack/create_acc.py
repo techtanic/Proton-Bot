@@ -157,10 +157,10 @@ def create_account(driver, x_i, y_i):
     username = "Username: " + word
     password = "Password: " + randpwd
     with open("Accounts.txt", 'a') as f:
-        f.write(datetime.now().strftime("%Y-%m-%d %H:%M"),"\n")
-        f.write(username,"\n")
-        f.write(password,"\n")
-        f.write("--------------------------------","\n")
+        f.write(datetime.now().strftime("%Y-%m-%d %H:%M")+"\n")
+        f.write(username+"\n")
+        f.write(password+"\n")
+        f.write("-------------------------------","\n")
     print(username)
     print(password)
 
