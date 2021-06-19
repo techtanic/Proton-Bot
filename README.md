@@ -11,6 +11,9 @@
 </p>
 
 
+# DISCONTINUED
+Reason: https://www.reddit.com/r/ProtonVPN/comments/lpron4/explanation_of_the_situation_with_the_removal_of/
+
 # Proton Bot
 
 > Script to automatically create Proton Mail account.
